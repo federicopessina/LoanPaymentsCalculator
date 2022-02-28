@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{bc102fba-0cca-4383-9201-2fcb49a53f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{38cafd4a-ce1c-4be4-a974-f49f75c14ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{42bd874a-fef4-436e-9894-73a826cdcf4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoanPaymentsCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printWelcomeConsole.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="printAmortizationHeader.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="inputLoanVariables.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="printPaymentsCalculations.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="printInputLoanVariables.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="printCompletedProcessConsole.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="divisor.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplier.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="printAmortization.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="updateLoanVariables.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="calculatePaymentsNumber.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="multiplier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="divisor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoanPaymentsCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printWelcomeConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amortizeProgram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="amortizationEnumeration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printAmortizationHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inputLoanVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printPaymentsCalculations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printInputLoanVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printCompletedProcessConsole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printAmortization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="updateLoanVariables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="calculatePaymentsNumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
