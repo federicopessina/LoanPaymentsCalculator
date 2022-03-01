@@ -17,6 +17,9 @@ Calculate, for each deadline
 1. payments due
 2. instalments
 
+## Design Pattern
+MVC
+
 ## Test
 Additional project to cover current and future test cases with Google Test Framewok
 
