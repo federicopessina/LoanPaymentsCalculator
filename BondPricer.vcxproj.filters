@@ -60,6 +60,9 @@
     <ClCompile Include="calculatePaymentsNumber.cpp">
       <Filter>Model</Filter>
     </ClCompile>
+    <ClCompile Include="simpleTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="multiplier.h">

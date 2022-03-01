@@ -1,9 +1,5 @@
 // BondPricer.cpp : This file contains the 'main' function. Program execution begins and ends there.
 
-//#define _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING  1 // silence compiler warning caused by google test
-
-#include <gtest/gtest.h>
-
 #include "divisor.h"
 #include "multiplier.h"
 #include "globals.h"

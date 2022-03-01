@@ -73,6 +73,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VCInstallDir)Auxiliary\VS\UnitTest\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(VCInstallDir)Auxiliary\VS\UnitTest\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -152,6 +154,7 @@
     <ClCompile Include="printInputLoanVariables.cpp" />
     <ClCompile Include="printPaymentsCalculations.cpp" />
     <ClCompile Include="printWelcomeConsole.cpp" />
+    <ClCompile Include="simpleTest.cpp" />
     <ClCompile Include="updateLoanVariables.cpp" />
   </ItemGroup>
   <ItemGroup>
